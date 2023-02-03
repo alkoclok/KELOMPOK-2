@@ -28,3 +28,8 @@ Route::get('/', function () {
 Route::get('daftar', function () {
     return view('pendaftaran');
 });
+Route::get('admin', function () {
+    return view('admin');
+});
+
+    
