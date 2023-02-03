@@ -17,10 +17,19 @@ Route::get('welcome', function () {
     return view('welcome');
 });
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('log', function () {
+    return view('login');
 });
 
 Route::get('/', function () {
     return view('siswa');
 });
+
+Route::get('daftar', function () {
+    return view('pendaftaran');
+});
+Route::get('admin', function () {
+    return view('admin');
+});
+
+    
